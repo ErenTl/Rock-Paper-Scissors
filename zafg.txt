@@ -1,2 +1,20 @@
 https://github.com/ErenTl/Rock-Paper-Scissors/blob/master/CO%C4%9ERAFYA%20%C4%B0KL%C4%B0M%20SUNUSU.pptx?raw=true
 https://github.com/ErenTl/Rock-Paper-Scissors/blob/master/co%C4%9Frafya%20op.ppsx?raw=true
+
+lab@ubuntulab-D2331:~$ lspci -nn | grep VGA
+00:02.0 VGA compatible controller [0300]: Intel Corporation 82915G/GV/910GL Integrated Graphics Controller [8086:2582] (rev 04)
+
+lab@ubuntulab-D2331:~$ xrandr -q
+Screen 0: minimum 8 x 8, current 1024 x 768, maximum 32767 x 32767
+VGA1 connected primary 1024x768+0+0 (normal left inverted right x axis y axis) 337mm x 270mm
+   1280x1024     60.02 +  75.02  
+   1024x768      75.08    75.03    70.07    60.00* 
+   832x624       74.55  
+   800x600       72.19    75.00    60.32    56.25  
+   640x480       75.00    72.81    66.67    60.00  
+   720x400       70.08  
+VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+
+Intel® Pentium(R) 4 CPU 3.00GHz × 2 
+Intel® 915G x86/MMX/SSE2
+ 
